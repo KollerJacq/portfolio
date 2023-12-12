@@ -1,0 +1,12 @@
+body {
+  font-family: "Buenos Aires";
+}
+h1 {
+  font-weight: 900;
+  text-align: center;
+}
+p {
+  font-weight: lighter;
+  font-size: 18px;
+  text-align: center;
+}
