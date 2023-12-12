@@ -7,6 +7,16 @@ body {
   color: #0a0614;
   font-family: var(--heading-font-family);
 }
+h2 {
+  font-size: 32px;
+  font-weight: 900;
+  margin: 0;
+}
+p {
+  font-weight: lighter;
+  font-size: 16px;
+  line-height: 1.5;
+}
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
@@ -23,10 +33,57 @@ body {
   margin: 0;
 }
 .btn-primary {
-  background-color: var(--primary-color);
+  background-color: #f26a2c;
+  border-color: #f26a2c;
   font-size: 18px;
   font-weight: lighter;
   line-height: 27px;
   padding: 15px 30px;
   border-radius: 40px;
+}
+.btn-primary:hover {
+  cursor: pointer;
+  background-color: var(--secondary-color);
+  border-color: #f26a2c;
+  color: #f26a2c;
+}
+.firstSection {
+  background-color: #190a46;
+  color: #fff;
+}
+.btn-branding-outline {
+  color: #fff;
+  background-color: #f26a2c;
+  font-size: 16px;
+  font-weight: lighter;
+  line-height: 20px;
+  padding: 10px 20px;
+  border-radius: 40px;
+}
+.weather {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 60px;
+  }
+  .hero p {
+    font-size: 20px;
+  }
+}
+.secondSection {
+  background-color: var(--secondary-color);
+}
+.poem {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.thirdSection {
+  background-color: #190a46;
+  color: #fff;
+}
+.clock {
+  margin-top: 30px;
+  margin-bottom: 50px;
 }
