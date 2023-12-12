@@ -1,12 +1,32 @@
+:root {
+  --primary-color: #2349ff;
+  --heading-font-family: "Buenos Aires";
+  --secondary-color: #fff3f6;
+}
 body {
-  font-family: "Buenos Aires";
+  color: #0a0614;
+  font-family: var(--heading-font-family);
 }
-h1 {
+.hero {
+  background-color: var(--secondary-color);
+  text-align: center;
+  padding: 160px 20px;
+}
+.hero h1 {
+  font-size: 76px;
   font-weight: 900;
-  text-align: center;
+  margin: 0;
 }
-p {
+.hero p {
   font-weight: lighter;
+  font-size: 24px;
+  margin: 0;
+}
+.btn-primary {
+  background-color: var(--primary-color);
   font-size: 18px;
-  text-align: center;
+  font-weight: lighter;
+  line-height: 27px;
+  padding: 15px 30px;
+  border-radius: 40px;
 }
