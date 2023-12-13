@@ -151,7 +151,22 @@ p {
   font-size: 20px;
   margin-top: 190px;
 }
-i {
+i.icon {
   margin-left: 150px;
   margin-bottom: 15px;
+}
+
+.link {
+  text-decoration: none;
+  color: #0a0614;
+}
+.link:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+hr {
+  color: #190a46;
+}
+.contact {
+  margin-top: 30px;
 }
