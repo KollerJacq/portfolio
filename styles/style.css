@@ -74,6 +74,41 @@ p {
   margin-top: 30px;
   margin-bottom: 50px;
 }
+nav {
+  padding: 20px 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+.logo {
+  max-height: 60px;
+}
+nav a {
+  text-decoration: none;
+  color: #0a0614;
+  transition: all 150ms ease-in-out;
+}
+nav li.active a,
+nav a:hover {
+  color: #f26a2c;
+}
+@media (max-width: 375px) {
+  nav li {
+    font-size: 15px;
+  }
+}
+@media (min-width: 768px) {
+  nav li {
+    font-size: 30px;
+  }
+}
 @media (max-width: 768px) {
   .hero h1 {
     font-size: 60px;
