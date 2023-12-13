@@ -60,6 +60,15 @@ p {
   padding: 10px 20px;
   border-radius: 40px;
 }
+.btn-branding-outline:hover {
+  cursor: pointer;
+  background-color: var(--secondary-color);
+  border-color: #f26a2c;
+  color: #f26a2c;
+}
+.dark:hover {
+  background-color: #190a46;
+}
 .weather {
   margin-top: 30px;
   margin-bottom: 50px;
@@ -70,6 +79,14 @@ p {
   }
   .hero p {
     font-size: 20px;
+  }
+  .about-section {
+    text-align: center;
+    padding: 0;
+  }
+  .photo {
+    margin-bottom: 70px;
+    max-width: 80%;
   }
 }
 .secondSection {
@@ -86,4 +103,26 @@ p {
 .clock {
   margin-top: 30px;
   margin-bottom: 50px;
+}
+.second {
+  background-color: var(--secondary-color);
+}
+.about-section {
+  text-align: left;
+  padding: 160px 20px;
+}
+.about-section h1 {
+  font-size: 56px;
+  font-weight: 900;
+  line-height: 1;
+  margin: 0;
+}
+.about-section p {
+  font-weight: lighter;
+  font-size: 18px;
+  line-height: 1.2;
+  margin: 0;
+}
+.about-section-content {
+  margin: 30px;
 }
