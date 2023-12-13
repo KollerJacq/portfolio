@@ -2,6 +2,7 @@
   --primary-color: #2349ff;
   --heading-font-family: "Buenos Aires";
   --secondary-color: #fff3f6;
+  --third-color: #190a46;
 }
 body {
   color: #0a0614;
@@ -80,7 +81,7 @@ p {
   .hero p {
     font-size: 20px;
   }
-  .about-section {
+  .content-container {
     text-align: center;
     padding: 0;
   }
@@ -88,7 +89,14 @@ p {
     margin-bottom: 70px;
     max-width: 80%;
   }
+  .picture {
+    margin-bottom: -150px;
+  }
+  .paragraph {
+    font-size: 14px;
+  }
 }
+
 .secondSection {
   background-color: var(--secondary-color);
 }
@@ -107,22 +115,43 @@ p {
 .second {
   background-color: var(--secondary-color);
 }
-.about-section {
+.content-container {
   text-align: left;
   padding: 160px 20px;
 }
-.about-section h1 {
+.content-container h1 {
   font-size: 56px;
   font-weight: 900;
   line-height: 1;
   margin: 0;
 }
-.about-section p {
+.content-container p {
   font-weight: lighter;
   font-size: 18px;
   line-height: 1.2;
   margin: 0;
 }
-.about-section-content {
+.content {
   margin: 30px;
+}
+.second h3 {
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 1.5;
+}
+.subtext {
+  font-size: 14px;
+  font-weight: lighter;
+}
+.paragraph {
+  font-size: 20px;
+  margin-top: 190px;
+}
+.paragraph-light {
+  font-size: 20px;
+  margin-top: 190px;
+}
+i {
+  margin-left: 150px;
+  margin-bottom: 15px;
 }
