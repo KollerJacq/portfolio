@@ -26,10 +26,30 @@ p {
   text-align: center;
   padding: 160px 20px;
 }
-.hero h1 {
+.hero text {
   font-size: 76px;
   font-weight: 900;
-  margin: 0;
+  margin: 0 auto;
+}
+svg {
+  width: 100%;
+}
+svg text {
+  stroke: #f26a2c;
+  stroke-width: 3;
+  animation: textAnimate 5s infinite alternate;
+}
+@keyframes textAnimate {
+  0% {
+    stroke-dasharray: 0 50%;
+    stroke-dashoffset: 20%;
+    fill: hsl((189), 68%, 75%);
+  }
+  100% {
+    stroke-dasharray: 50% 0;
+    stroke-dashoffset: -20%;
+    fill: hsla(189, 68%, 75%, 0%);
+  }
 }
 .hero p {
   font-weight: lighter;
@@ -161,7 +181,7 @@ footer .social-links a:hover {
   }
 }
 @media (max-width: 768px) {
-  .hero h1 {
+  .hero text {
     font-size: 60px;
   }
   .hero p {
