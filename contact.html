@@ -34,8 +34,9 @@
         /></a>
         <ul>
           <li><a href="/" title="Homepage">Home</a></li>
-          <li><a href="/about.html" title="About page">About</a></li>
+
           <li><a href="/work.html" title="Project page">Projects</a></li>
+          <li><a href="/about.html" title="About page">Resume</a></li>
           <li class="active">
             <a href="/contact.html" title="Contact page">Contact</a>
           </li>
@@ -55,67 +56,67 @@
           <hr />
           <div class="container">
             <div class="row contact">
-              <div class="icon col-md-6">
+              <div class="icon col-md-4">
                 <i
                   class="fa-solid fa-envelope fa-3x"
                   style="color: #f26a2c"
                 ></i>
-                <div class="col-md-6">
-                  <a
-                    href="mailto:koller.jacqueline@outlook.de"
-                    target="_blank"
-                    class="link"
-                    title="Email"
-                    >koller.jacqueline@outlook.de</a
-                  >
-                </div>
-              </div>
-            </div>
-            <div class="row contact">
-              <div class="icon col-md-6">
+                <br />
+                <a
+                  href="mailto:koller.jacqueline@outlook.de"
+                  target="_blank"
+                  class="link"
+                  title="Email"
+                  >koller.jacqueline@outlook.de</a
+                >
+                <br />
                 <i
-                  class="fa-brands fa-instagram fa-3x"
+                  class="fa-brands fa-linkedin-in fa-3x mt-5"
                   style="color: #f26a2c"
-                ></i>
-                <div class="col-md-6">
-                  <a
-                    href="https://www.instagram.com/ruri.tattoo/"
-                    target="_blank"
-                    class="link"
-                    title="Instagram link"
-                    >ruri.tatto</a
-                  >
-                </div>
+                ></i
+                ><br />
+                <a href="#" class="link" title="LinkedIn link"
+                  >Jacqueline Koller</a
+                >
               </div>
-            </div>
-            <div class="row contact">
-              <div class="icon col-md-6">
-                <i
-                  class="fa-brands fa-square-facebook fa-3x"
-                  style="color: #f26a2c"
-                ></i>
-                <div class="col-md-6">
-                  <a
-                    href="https://www.facebook.com/ruri.tattoo"
-                    target="_blank"
-                    class="link"
-                    title="Facebook link"
-                    >Lynn Koller</a
-                  >
-                </div>
-              </div>
-            </div>
-            <div class="row contact">
-              <div class="icon col-md-6">
-                <i
-                  class="fa-brands fa-linkedin-in fa-3x"
-                  style="color: #f26a2c"
-                ></i>
-                <div class="col-md-6">
-                  <a href="#" class="link" title="LinkedIn link"
-                    >Jacqueline Koller</a
-                  >
-                </div>
+              <div class="col-md-7">
+                <form id="contactForm">
+                  <div class="mb-3">
+                    <label class="form-label" for="name">Name</label>
+                    <input
+                      class="form-control"
+                      id="name"
+                      type="text"
+                      placeholder="Name"
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label class="form-label" for="emailAddress"
+                      >Email Address</label
+                    >
+                    <input
+                      class="form-control"
+                      id="emailAddress"
+                      type="email"
+                      placeholder="Email"
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label class="form-label" for="message">Message</label>
+                    <textarea
+                      class="form-control"
+                      id="message"
+                      type="text"
+                      placeholder="Message"
+                      style="height: 10rem"
+                    ></textarea>
+                  </div>
+                  <div class="d-grid">
+                    <button class="btn btn-primary btn-lg" type="submit">
+                      Submit
+                    </button>
+                  </div>
+                </form>
               </div>
             </div>
           </div>

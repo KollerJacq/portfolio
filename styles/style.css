@@ -21,6 +21,9 @@ p {
   font-size: 16px;
   line-height: 1.5;
 }
+row .contact {
+  display: grid;
+}
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
@@ -219,6 +222,10 @@ footer .social-links a:hover {
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
+}
+.fourthSection {
+  background-image: url(/img/circle-scatter-haikei1.svg);
+  background-size: cover;
 }
 .clock {
   margin-top: 30px;
