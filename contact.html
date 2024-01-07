@@ -19,6 +19,7 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
+
     <script
       src="https://kit.fontawesome.com/9e6101655b.js"
       crossorigin="anonymous"
@@ -52,7 +53,7 @@
           <hr />
           <div class="container">
             <div class="row contact">
-              <div class="icon col-md-4">
+              <div class="icon col-md-5">
                 <i
                   class="fa-solid fa-envelope fa-3x"
                   style="color: #f26a2c"
@@ -76,7 +77,7 @@
                 >
               </div>
               <div class="col-md-7">
-                <form id="contactForm">
+                <form id="contactForm" onsubmit="return false">
                   <div class="mb-3">
                     <label class="form-label" for="name">Name</label>
                     <input
@@ -84,19 +85,21 @@
                       id="name"
                       type="text"
                       placeholder="Name"
+                      required
                     />
                   </div>
+
                   <div class="mb-3">
-                    <label class="form-label" for="emailAddress"
-                      >Email Address</label
-                    >
+                    <label class="form-label" for="email">Email Address</label>
                     <input
                       class="form-control"
-                      id="emailAddress"
+                      id="email"
                       type="email"
                       placeholder="Email"
+                      required
                     />
                   </div>
+
                   <div class="mb-3">
                     <label class="form-label" for="message">Message</label>
                     <textarea
@@ -107,11 +110,13 @@
                       style="height: 10rem"
                     ></textarea>
                   </div>
-                  <div class="d-grid">
-                    <button class="btn btn-primary btn-lg" type="submit">
-                      Submit
-                    </button>
-                  </div>
+                  <input
+                    type="button"
+                    class="btn btn-primary btn-lg"
+                    value="Send"
+                    onclick="Send()"
+                    required
+                  />
                 </form>
               </div>
             </div>
@@ -177,4 +182,7 @@
       </footer>
     </div>
   </body>
+  <script src="src/script.js"></script>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </html>
