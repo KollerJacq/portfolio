@@ -169,6 +169,10 @@ nav li.active a,
 nav a:hover {
   color: #f26a2c;
 }
+object {
+  margin-top: 40px;
+  border-radius: 14px;
+}
 p {
   font-weight: lighter;
   font-size: 16px;
@@ -181,6 +185,14 @@ p {
 .paragraph-light {
   font-size: 20px;
   margin-top: 190px;
+}
+.pdf-link {
+  color: #f26a2c;
+  text-decoration: none;
+  background-color: #fff3f6;
+  border: 1px solid #f26a2c;
+  border-radius: 14px;
+  padding: 10px;
 }
 .poem {
   margin-top: 30px;
