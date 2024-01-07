@@ -21,6 +21,18 @@ p {
   font-size: 16px;
   line-height: 1.5;
 }
+.technologies {
+  color: #f26a2c;
+  background-color: #190a46;
+  padding: 10px 14px;
+  border-radius: 60px;
+  margin: 0 25px;
+  transition: all 150ms ease-in-out;
+}
+.technologies:hover {
+  color: #fff;
+  background-color: #f26a2c;
+}
 row .contact {
   display: grid;
 }
@@ -79,6 +91,7 @@ svg text {
   background-size: cover;
   color: #fff;
 }
+
 .btn-branding-outline {
   color: #fff;
   background-color: #f26a2c;
@@ -88,6 +101,22 @@ svg text {
   line-height: 20px;
   padding: 10px 20px;
   border-radius: 40px;
+}
+.btn-branding-outline-light {
+  color: #fff;
+  background-color: #f26a2c;
+  border: 3px solid #fff3f6;
+  font-size: 16px;
+  font-weight: lighter;
+  line-height: 20px;
+  padding: 10px 20px;
+  border-radius: 40px;
+}
+.btn-branding-outline-light:hover {
+  cursor: pointer;
+  background-color: var(--secondary-color);
+  border-color: #f26a2c;
+  color: #f26a2c;
 }
 .btn-branding-outline:hover {
   cursor: pointer;
@@ -103,7 +132,7 @@ svg text {
   margin-bottom: 50px;
 }
 nav {
-  padding: 20px 0;
+  padding: 10px 0px;
 }
 nav li {
   display: inline;
@@ -270,11 +299,6 @@ footer .social-links a:hover {
   font-size: 20px;
   margin-top: 190px;
 }
-i.icon {
-  margin-left: 150px;
-  margin-bottom: 15px;
-}
-
 .link {
   text-decoration: none;
   color: #0a0614;
