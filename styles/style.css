@@ -194,6 +194,9 @@ p {
   border-radius: 14px;
   padding: 10px;
 }
+.pdf-link:hover {
+  text-decoration: underline;
+}
 .poem {
   margin-top: 30px;
   margin-bottom: 50px;
