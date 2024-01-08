@@ -178,6 +178,9 @@ p {
   font-size: 26px;
   line-height: 1.5;
 }
+p .active {
+  color: #f26a2c;
+}
 .paragraph {
   font-size: 20px;
   margin-top: 190px;
