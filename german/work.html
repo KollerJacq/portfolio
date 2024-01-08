@@ -12,8 +12,8 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="styles/stylesheet.css" />
-    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="/styles/style.css" />
+    <link rel="stylesheet" href="/styles/stylesheet.css" />
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
@@ -28,40 +28,44 @@
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <p><a href="/german/index.html">GER</a>| ENG</p>
+        <p>GER| <a href="/german/work.html">ENG</a></p>
         <ul>
-          <li><a href="/" title="Homepage">Home</a></li>
+          <li><a href="/german/index.html" title="Homepage">Home</a></li>
           <li class="active">
-            <a href="/work.html" title="Project page">Projects</a>
+            <a href="/german/work.html" title="Project page">Projekte</a>
           </li>
-          <li><a href="/about.html" title="About page">Resume</a></li>
-          <li><a href="/contact.html" title="Contact page">Contact</a></li>
+          <li>
+            <a href="/german/about.html" title="About page">Lebenslauf</a>
+          </li>
+          <li>
+            <a href="/german/contact.html" title="Contact page">Kontakt</a>
+          </li>
         </ul>
       </nav>
     </div>
     <div class="second">
       <div class="content-container container">
         <div class="content">
-          <h1 class="mb-5">Take a look at what I've been working on!</h1>
+          <h1 class="mb-5">Schau dir an, woran ich gearbeitet habe!</h1>
         </div>
       </div>
       <div class="firstSection" id="firstSection">
         <div class="container">
           <div class="row">
             <div class="picture col-md-6">
-              <h3 class="text-center mb-4 mt-5">Dictionary App</h3>
+              <h3 class="text-center mb-4 mt-5">Description App</h3>
               <img
-                src="img/dictionary.png"
+                src="/img/dictionary.png"
                 class="img-fluid rounded mb-3"
                 alt="dictionary"
               />
-              <p class="subtext text-center">Built in React with APIs</p>
+              <p class="subtext text-center">Programmiert in React mit APIs</p>
             </div>
             <div class="col-md-6">
               <p class="paragraph mb-5 ms-5">
-                With a sleek interface, it provides accurate phonetic
-                pronunciations, detailed definitions, and real-world examples
-                for every word.
+                Mit einer ansprechenden Benutzeroberfläche bietet es präzise
+                phonetische Aussprachen, detaillierte Definitionen und
+                realitätsnahe Beispiele für jedes Wort.
               </p>
               <!--<a
                 href="/img/dictionary.png"
@@ -78,12 +82,12 @@
         <div class="container">
           <div class="row">
             <div class="col-md-6">
-              <p class="paragraph ms-5">
-                With an illustrative background and a carefully coordinated
-                color palette, this Weather App ensures an optimal user
-                experience. Beyond a mere temperature check, the app provides
-                detailed insights, including current temperature, humidity
-                levels, wind speed, and a convenient 5-day forecast.
+              <p class="paragraph ms-1">
+                Mit einer sorgfältig abgestimmten Farbpalette gewährleistet
+                diese Wetter-App eine optimale Benutzererfahrung. Über eine
+                einfache Temperaturüberprüfung hinaus bietet die App aktuelle
+                Temperaturen, Luftfeuchtigkeitswerte, die Windgeschwindigkeit
+                und eine praktische 5-Tage-Vorhersage.
               </p>
               <!--<a href="#" class="btn btn-branding-outline-light ms-5" title="#"
                 >Check it out</a
@@ -92,11 +96,11 @@
             <div class="col-md-6">
               <h3 class="text-center mb-4 mt-5">Weather App</h3>
               <img
-                src="img/React_project.png"
+                src="/img/React_project.png"
                 class="img-fluid rounded mb-3"
                 alt="Weather App"
               />
-              <p class="subtext text-center">Built in React with APIs</p>
+              <p class="subtext text-center">Programmiert in React mit APIs</p>
             </div>
           </div>
         </div>
@@ -107,16 +111,16 @@
             <div class="picture col-md-6">
               <h3 class="text-center mb-4 mt-5">Travel Landing Page</h3>
               <img
-                src="img/TravelProject.png"
+                src="/img/TravelProject.png"
                 class="img-fluid rounded mb-3"
                 alt="London Landing page"
               />
-              <p class="subtext text-center">Built with HTML and CSS</p>
+              <p class="subtext text-center">Programmiert mit HTML und CSS</p>
             </div>
             <div class="col-md-6">
               <p class="paragraph mb-5 ms-5">
-                This responsive guide provides diverse hotspots and also shows
-                you some of the top restaurant recommendations.
+                Diese responsive Anleitung bietet vielfältige Hotspots in London
+                und zeigt auch einige der besten Restaurantempfehlungen.
               </p>
               <!--<a href="#" class="btn btn-branding-outline ms-5" title="#"
                 >Check it out</a
@@ -130,10 +134,10 @@
           <div class="row">
             <div class="col-md-6">
               <p class="paragraph ms-5">
-                Effortlessly track time across diverse regions with our
-                user-friendly guide. Our interface simplifies the experience,
-                providing a visual representation of time zones for seamless
-                navigation.
+                Verfolgen Sie mühelos die Zeit in verschiedenen Regionen mit
+                dieser benutzerfreundlichen Weltuhr. Die Benutzeroberfläche
+                bietet eine visuelle Darstellung von Zeitzonen bis auf die
+                Sekunde.
               </p>
               <!--<a href="#" class="btn btn-branding-outline-light ms-5" title="#"
                 >Check it out</a
@@ -142,11 +146,13 @@
             <div class="col-md-6">
               <h3 class="text-center mt-5">World Clock</h3>
               <img
-                src="img/worldclock.png"
+                src="/img/worldclock.png"
                 class="img-fluid rounded mb-3"
                 alt="World Clock"
               />
-              <p class="subtext text-center">Built with HTML, CSS and APIs</p>
+              <p class="subtext text-center">
+                Programmiert mit HTML, CSS und mit APIs
+              </p>
             </div>
           </div>
         </div>
@@ -157,16 +163,17 @@
             <div class="picture col-md-6">
               <h3 class="text-center mb-4 mt-5">Dog Training Landing Page</h3>
               <img
-                src="img/dogtraining.png"
+                src="/img/dogtraining.png"
                 class="img-fluid rounded mb-3"
                 alt="Dog Training Landing Page"
               />
-              <p class="subtext text-center">Built with HTML and CSS</p>
+              <p class="subtext text-center">Programmiert mit HTML und CSS</p>
             </div>
             <div class="col-md-6">
               <p class="paragraph mb-5 ms-5">
-                This Landing Page has a user-friendly interface, ensuring a
-                seamless experience for all dog enthusiasts.
+                Diese Startseite verfügt über eine benutzerfreundliche
+                Oberfläche und bietet Informationen zum Hundetraining für alle
+                Hundefreunde.
               </p>
               <!--<a href="#" class="btn btn-branding-outline ms-5" title="#"
                 >Check it out</a
@@ -180,8 +187,8 @@
           <div class="row">
             <div class="col-md-6">
               <p class="paragraph ms-5">
-                Navigate effortlessly through the user-friendly interface to
-                effortlessly generate unique and expressive poems.
+                Generieren Sie mühelos einzigartige und ausdrucksstarke
+                Gedichte.
               </p>
               <!--<a href="#" class="btn btn-branding-outline-light ms-5" title="#"
                 >Check it out</a
@@ -190,12 +197,12 @@
             <div class="col-md-6">
               <h3 class="text-center mt-5">Poem AI Generator</h3>
               <img
-                src="img/poem.png"
+                src="/img/poem.png"
                 class="img-fluid rounded mb-3"
                 alt="World Clock"
               />
               <p class="subtext text-center">
-                Built with HTML, CSS, APIs and Javascript
+                Programmiert mit HTML, CSS, APIs und Javascript
               </p>
             </div>
           </div>
@@ -206,12 +213,12 @@
       <footer>
         <div class="contact-box d-flex justify-content-between mb-5">
           <div>
-            <h4>Work Inquiry</h4>
-            <p>Let's work together!</p>
+            <h4>Anfragen</h4>
+            <p>Lass uns zusammenarbeiten!</p>
           </div>
           <div>
             <a href="/contact.html" class="btn btn-primary" title="Contact page"
-              >Contact me</a
+              >Kontakt</a
             >
           </div>
         </div>
@@ -239,7 +246,7 @@
             <i class="fa-brands fa-github fa-3x"></i
           ></a>
         </div>
-        <p class="text-center mt-4">
+        <!--<p class="text-center mt-4">
           This project was coded by Jacqueline Koller and is open-sourced on
           <a
             href="https://github.com/KollerJacq/portfolio"
@@ -256,7 +263,7 @@
             title="Netlify link"
             >Netlify</a
           >
-        </p>
+        </p>-->
       </footer>
     </div>
   </body>
